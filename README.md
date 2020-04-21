@@ -5,8 +5,9 @@
 		
 - [ ] Good CSS appereance;
 - [ ] Minimalistic;
-- [ ] Great visuality of the input boxes;
+- [x] Great visuality of the input boxes;
 - [ ] Put everything surrounded by a box;
 - [ ] Improve the 'Nao sou um robô' (Captcha) system;
+- [ ] Solve the Calculator Sum Problem;
 
 Let's make it! :sunglasses:
