@@ -9,26 +9,35 @@
             font: normal 12pt Arial;
             text-align: center;
         }
-        div#res {
-            text-align: center;
-            margin-top: 35px;
+        div#text {
+            margin-top: 10%;
+        }
+        input#email {
+            border-color: #77AD78;
+            border-radius: 10px;
+        }
+        input#pw {
+            border-color: #77AD78;
+            border-radius: 10px;
         }
         input#login {
             background-color: lime;
             border-radius: 20px;
         }
-        div#conjunto {
-            margin-top: 165px;
+        div#res {
+            text-align: center;
+            margin-top: 35px;
         }
     </style>
 </head>
 <body>
-    <div id='conjunto'>
+    <div id='text'>
         <h1>Seja bem vindo!</h1>
         <p>Coloque seus dados abaixo</p>
+    </div>
 
-        <input type="email" name="email" placeholder="E-mail">            <!--PARTE DOS DADOS-->
-        <input type="password" name="pass" placeholder="Password">             
+        <input type="email" name="email" id='email'placeholder="  E-mail">            <!--PARTE DOS DADOS-->
+        <input type="password" name="pass" id='pw' placeholder="   Password">             
         <input id='login' type="button" value="Login">                <!--DEI UM ID AO INPUT'LOGIN' PRA IDENTICÁ-LO NO CSS-->
 
         <p><strong>Não sou um Robô</strong></p>
@@ -36,9 +45,8 @@
     
         <input type="number" name="txtn1" id="txtn1"> +
         <input type="number" name="txtn2" id="txtn2">             <!--PARTE DOS NUMEROS-->
-
         <input type="button" value="Somar" onclick="somar()">
-    </div>
+    
 
     <div id='res'>Resultado:</div>
 
