@@ -33,6 +33,10 @@
             border-radius: 20px;
             outline: none;
         }
+        input#cb {
+            width: 20px;
+            height: 20px;
+        }
         input#txtn1 {
             width: 100px;
             border-radius: 20px;
@@ -64,21 +68,22 @@
     </div>
         <input type="email" name="email" id='email'placeholder="E-mail" autocomplete='off'>            <!--PARTE DOS DADOS-->
         <input type="password" name="pass" id='pw' placeholder="Password">             
-        <input id='login' type="button" value="LOGIN">                <!--DEI UM ID AO INPUT'LOGIN' PRA IDENTICÁ-LO NO CSS-->
+        <input id='login' type="button" value="LOGIN">                                   <!--DEI UM ID AO INPUT'LOGIN' PRA IDENTICÁ-LO NO CSS-->
 
         <p><strong>Não sou um Robô</strong></p>
-        <p><u>*Faça o resultado dar 8*</u></p>                   <!-- <u> é sublinhar -->
-    
+        <input type="checkbox" name="cb" id="cb">
+        <p><u>*Faça o resultado dar 8*</u></p>                        <!-- <u> é sublinhar -->
+            
         <input type="number" name="txtn1" id="txtn1"> +
-        <input type="number" name="txtn2" id="txtn2">             <!--PARTE DOS NUMEROS-->
+        <input type="number" name="txtn2" id="txtn2">                        <!--PARTE DOS NUMEROS-->
         <input id='somar' type="button" value="SOMAR" onclick="somar()">
-    
+        
 
     <div id='res'>Resultado:</div>
 
     <script>
         function somar() {
-        var tn1 = document.querySelector('input#txtn1')    // O valor vem dos boxes em forma de String
+        var tn1 = document.querySelector('input#txtn1')      // O valor vem dos boxes em forma de String
         var tn2 = document.querySelector('input#txtn2')
 
         var n1 = Number(tn1.value)                         // Transforma de String para Number
