@@ -1,0 +1,55 @@
+
+        body {
+            font: normal 12pt Arial;
+            text-align: center;
+        }
+        header {
+            margin-top: 10%;
+        }
+        input#email {
+            border-color: #77AD78;
+            border-radius: 10px;
+            block-size: 20px;
+            width: 230px;
+            padding-left: 7px;
+            outline: none;
+        }
+        input#pw {
+            border-color: #77AD78;
+            border-radius: 10px;
+            block-size: 20px;
+            width: 230px;
+            padding-left: 7px;
+            outline: none;
+        }
+        input#login {
+            width: 60px;
+            border-radius: 20px;
+            outline: none;
+        }
+        input#cb {
+            width: 20px;
+            height: 20px;
+        }
+        input#txtn1 {
+            width: 100px;
+            border-radius: 20px;
+            border-color: #77AD78;
+            padding-left: 7px;
+            outline: none;
+        }
+        input#txtn2 {
+            width: 100px;
+            border-radius: 20px;
+            border-color: #77AD78;
+            padding-left: 7px;
+            outline: none;
+        }
+        input#somar {
+            border-radius: 20px;
+            outline: none;
+        }
+        div#res {
+            text-align: center;
+            margin-top: 25px;
+        }

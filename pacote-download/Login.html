@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font: normal 12pt Arial;
             text-align: center;
         }
-        div#text {
+        header {
             margin-top: 10%;
         }
         input#email {
@@ -62,10 +63,10 @@
     </style>
 </head>
 <body>
-    <div id='text'>
+    <header>
         <h1>Seja bem vindo!</h1>
         <p>Coloque seus dados abaixo:</p>
-    </div>
+    </header>
         <input type="email" name="email" id='email'placeholder="E-mail" autocomplete='off'>            <!--PARTE DOS DADOS-->
         <input type="password" name="pass" id='pw' placeholder="Password">             
         <input id='login' type="button" value="LOGIN">                                   <!--DEI UM ID AO INPUT'LOGIN' PRA IDENTICÁ-LO NO CSS-->
@@ -77,9 +78,11 @@
         <input type="number" name="txtn1" id="txtn1"> +
         <input type="number" name="txtn2" id="txtn2">                        <!--PARTE DOS NUMEROS-->
         <input id='somar' type="button" value="SOMAR" onclick="somar()">
-        
-
     <div id='res'>Resultado:</div>
+    
+    <footer>
+        <p>&copy; Leo Scherrer</p>
+    </footer>
 
     <script>
         function somar() {
