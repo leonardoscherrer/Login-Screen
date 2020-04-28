@@ -1,4 +1,4 @@
-# Javascript-codes
+# Javascript-Projects
 :point_right: Login Screen Project :point_left:
  
 *__Appointments:__*
