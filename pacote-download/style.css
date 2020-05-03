@@ -11,7 +11,7 @@
             margin: auto;
             margin-top: 110px;
             padding-top: 5px;
-            padding-bottom: 60px;
+            padding-bottom: 27px;
             border-radius: 20px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
         }
@@ -43,8 +43,9 @@
             font-weight: 700;
         }
         input#cb {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
         }
         input#txtn1 {
             width: 100px;
@@ -79,3 +80,4 @@
             font-style: italic;
             font-weight: 675;
         }
+        
